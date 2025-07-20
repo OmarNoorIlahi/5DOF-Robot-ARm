@@ -2,13 +2,13 @@
 
 # Table of Contents
 
- [Overview](#overview)
- [Methods](#methods)
+1. [Overview](#overview)
+2. [Methods](#methods)
    - [Components](#components)
    - [Assembly](#assembly)
      - [Gripper](#gripper)
      - [Robot Arm](#robot-arm)
- [Output](#output)
+3. [Output](#output)
 
 ---
 

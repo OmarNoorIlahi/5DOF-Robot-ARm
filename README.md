@@ -2,13 +2,13 @@
 
 # Table of Contents
 
-1. [Overview](#overview)
-2. [Methods](#methods)
+ [Overview](#overview)
+ [Methods](#methods)
    - [Components](#components)
    - [Assembly](#assembly)
      - [Gripper](#gripper)
      - [Robot Arm](#robot-arm)
-3. [Output](#output)
+ [Output](#output)
 
 ---
 
@@ -39,8 +39,6 @@ The model consists of 9 parts and 2 motors. However, some parts are repeated in 
 | Gear                                | 2        |
 | MG996R Servo Motor                  | 3        |
 | SG90R Micro Servo Motor             | 3        |
-
----
 
 ### Assembly
 
@@ -83,10 +81,10 @@ In the assembly stage, the gripper is assembled as an isolated system and then g
 
 As shown in the previous figures, the final assembly should look similar to them. The motion is generated as follows:
 
- **1st DOF:** Waist rotation around the origin.
- **2nd DOF:** Shoulder moves back and forth in rotational movement.
- **3rd DOF:** Elbow stands up & down also rotationally.
- **4th DOF:** Wrist rotation around the center of the elbow.
- **5th DOF:** Gripper movement right and left in rotational form.
+ 1. **1st DOF:** Waist rotation around the origin.
+ 2. **2nd DOF:** Shoulder moves back and forth in rotational movement.
+ 3. **3rd DOF:** Elbow stands up & down also rotationally.
+ 4. **4th DOF:** Wrist rotation around the center of the elbow.
+ 5. **5th DOF:** Gripper movement right and left in rotational form.
 
 Regardless of the appearance of the robotic arm, there are some misalignments in the interfaces and clearances between parts, which may cause high friction. However, this is only an introduction to the world of robot design, leaving significant room for improvement in future tasks.
